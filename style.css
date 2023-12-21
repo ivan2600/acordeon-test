@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Tilt Neon', cursive;
+}
+
+.acordeon {
+  width: 90%;
+  max-width: 120em;
+  background-color: rgb(127, 127, 180);
+  padding: 2em;  
+  margin: 100px auto;
+} 
+.acordeon .bloque {
+  background-color: cadetblue;
+  margin: 0 0 1em;
+  padding: 1em;
+} 
+.acordeon .h2 {
+  background-color: burlywood;
+  margin: 0 0 1em;
+  padding: 1em;
+} 
+.acordeon .contenido {
+  background-color: rgb(221, 162, 84);
+  height: 0;
+  padding: 0em;
+  overflow: hidden;
+  transition: all .5s ease;
+} 
+
+.acordeon .bloque.activo .contenido {
+  height: 4em;
+}
