@@ -1,5 +1,6 @@
 const bloque  = document.querySelectorAll('.bloque');
 const h2      = document.querySelectorAll('.h2');
+const boton   = document.querySelectorAll('.boton');
 
 // Cuando CLICK en h2,
   // QUITAR la clase activo de TODOS los bloque
@@ -18,6 +19,6 @@ h2.forEach( ( cadaH2 , i )=>{
     // Añadiendo la clase activo al bloque cuya posición sea igual al del h2
     // (Linea número 10)
     bloque[i].classList.add('activo')
-
+    console.log(boton[i].textContent)
   })
 }) 

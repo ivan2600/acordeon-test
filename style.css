@@ -33,3 +33,9 @@
 .acordeon .bloque.activo .contenido {
   height: 4em;
 }
+.boton {
+  width: 10em;
+  height: 2em;
+  font-size: 1.5em;
+  background-color: rgb(221, 162, 84);
+}
